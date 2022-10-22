@@ -8,47 +8,48 @@ Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'field_info' (item size: 4) to 10066 items.
 Database file #1: mybibfile.bib
 Warning--empty author and editor in DataBricks
-You've used 71 entries,
+You've used 149 entries,
             3507 wiz_defined-function locations,
-            1074 strings with 17727 characters,
-and the built_in function-call counts, 117834 in all, are:
-= -- 13565
-> -- 1094
-< -- 531
-+ -- 478
-- -- 249
-* -- 8925
-:= -- 12956
-add.period$ -- 240
-call.type$ -- 71
-change.case$ -- 42
-chr.to.int$ -- 1120
-cite$ -- 72
-duplicate$ -- 10092
-empty$ -- 11451
-format.name$ -- 263
-if$ -- 27859
+            1463 strings with 30830 characters,
+and the built_in function-call counts, 230636 in all, are:
+= -- 26267
+> -- 2154
+< -- 1212
++ -- 924
+- -- 476
+* -- 16960
+:= -- 25343
+add.period$ -- 513
+call.type$ -- 149
+change.case$ -- 84
+chr.to.int$ -- 2576
+cite$ -- 150
+duplicate$ -- 20394
+empty$ -- 22389
+format.name$ -- 500
+if$ -- 54660
 int.to.chr$ -- 0
-int.to.str$ -- 71
-missing$ -- 659
-newline$ -- 344
-num.names$ -- 101
-pop$ -- 1969
+int.to.str$ -- 149
+missing$ -- 1334
+newline$ -- 726
+num.names$ -- 199
+pop$ -- 4150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1547
+skip$ -- 3174
 stack$ -- 0
-substring$ -- 20604
-swap$ -- 1753
-text.length$ -- 234
+substring$ -- 38813
+swap$ -- 3644
+text.length$ -- 519
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 683
-width$ -- 73
-write$ -- 786
+while$ -- 1378
+width$ -- 152
+write$ -- 1645
 (There was 1 warning)
