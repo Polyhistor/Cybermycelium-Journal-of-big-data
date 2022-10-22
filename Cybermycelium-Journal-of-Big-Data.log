@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 OCT 2022 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 OCT 2022 22:20
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex"
@@ -476,11 +476,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \address@aff1=\toks40
 \address@aff2=\toks41
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 265.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 261.
  [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-<PRISMA.JPG, id=297, 1031.35312pt x 610.53094pt>
+<PRISMA.JPG, id=287, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
 Package pdftex.def Info: PRISMA.JPG  used on input line 506.
@@ -491,7 +491,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 507.
 See the caption package documentation for explanation.
 
-<databases-statitistic.jpg, id=299, 1003.75pt x 668.4975pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<databases-statitistic.jpg, id=289, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
 Package pdftex.def Info: databases-statitistic.jpg  used on input line 516.
@@ -504,8 +507,8 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/PRISMA.JPG>] [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/databases-statitistic.jpg>] [14]
-<variability-model.JPG, id=369, 1282.7925pt x 607.26875pt>
+[12] [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/PRISMA.JPG> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/databases-statitistic.jpg>] [14]
+<variability-model.JPG, id=364, 1282.7925pt x 607.26875pt>
 File: variability-model.JPG Graphic file (type jpg)
 <use variability-model.JPG>
 Package pdftex.def Info: variability-model.JPG  used on input line 559.
@@ -517,7 +520,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [15 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/variability-model.JPG>] [16] [17] [18] [19] [20] [21] [22]
-<Media/product-facets.jpg, id=518, 702.625pt x 661.47125pt>
+<Media/product-facets.jpg, id=516, 702.625pt x 661.47125pt>
 File: Media/product-facets.jpg Graphic file (type jpg)
 <use Media/product-facets.jpg>
 Package pdftex.def Info: Media/product-facets.jpg  used on input line 816.
@@ -529,7 +532,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [23 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/product-facets.jpg>] [24] [25]
-<Media/Cybermycelium.jpg, id=553, 1528.71124pt x 740.7675pt>
+<Media/Cybermycelium.jpg, id=552, 1528.71124pt x 740.7675pt>
 File: Media/Cybermycelium.jpg Graphic file (type jpg)
 <use Media/Cybermycelium.jpg>
 Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 865.
@@ -539,7 +542,7 @@ Overfull \hbox (1.41338pt too wide) in paragraph at lines 865--866
 [][] 
  []
 
-<Media/Product Domain.jpg, id=554, 819.06pt x 529.98pt>
+<Media/Product Domain.jpg, id=553, 819.06pt x 529.98pt>
 File: Media/Product Domain.jpg Graphic file (type jpg)
 <use Media/Product Domain.jpg>
 Package pdftex.def Info: Media/Product Domain.jpg  used on input line 874.
@@ -553,7 +556,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [26] [27 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Cybermycelium.jpg>] [28 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Product Domain.jpg>] [29] [30] [31] [32] [33]
-<Media/concrete-mycelium.jpg, id=629, 1564.84625pt x 785.93625pt>
+<Media/concrete-mycelium.jpg, id=627, 1564.84625pt x 785.93625pt>
 File: Media/concrete-mycelium.jpg Graphic file (type jpg)
 <use Media/concrete-mycelium.jpg>
 Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 942.
@@ -564,7 +567,7 @@ Overfull \hbox (1.41338pt too wide) in paragraph at lines 942--943
  []
 
 [34] [35 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/concrete-mycelium.jpg>]
-<Media/Utility-tree.jpg, id=645, 863.225pt x 572.1375pt>
+<Media/Utility-tree.jpg, id=642, 863.225pt x 572.1375pt>
 File: Media/Utility-tree.jpg Graphic file (type jpg)
 <use Media/Utility-tree.jpg>
 Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 976.
@@ -575,7 +578,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 977.
 See the caption package documentation for explanation.
 
-[36 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Utility-tree.jpg>] [37] [38] [39] [40] [41] [42]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Utility-tree.jpg>] [38] [39] [40] [41] [42] [43]
 Overfull \hbox (2.964pt too wide) in paragraph at lines 1148--1148
 []|\OT1/cmr/m/n/10 Author| 
  []
@@ -639,7 +645,13 @@ Underfull \hbox (badness 1424) in paragraph at lines 1208--1209
 []|\OT1/cmr/m/n/10 NeoMycelia: A soft-ware ref-er-
  []
 
-[43] [44] [45] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.bbl" [46] [47] [48] [49]
+[44]
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [45] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.bbl" [46]
+Underfull \vbox (badness 4913) has occurred while \output is active []
+
+ [47] [48] [49]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 668.
  (D:\MikTex\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -661,15 +673,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1339.
 Here is how much of TeX's memory you used:
  10981 strings out of 480795
  160882 string characters out of 2913777
- 462285 words of memory out of 3000000
+ 459276 words of memory out of 3000000
  26378 multiletter control sequences out of 15000+200000
  544830 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,47p,1874b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,47p,1869b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0700.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.pdf" (51 pages, 1269568 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.pdf" (51 pages, 1270799 bytes).
 PDF statistics:
- 1189 PDF objects out of 1200 (max. 8388607)
+ 1188 PDF objects out of 1200 (max. 8388607)
  404 named destinations out of 1000 (max. 500000)
  481 words of extra memory for PDF output out of 10000 (max. 10000000)
 
