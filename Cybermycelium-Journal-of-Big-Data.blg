@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Cybermycelium-Journal-of-Big-Data.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: vancouver.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: mybibfile.bib
+Warning--empty author and editor in DataBricks
+You've used 71 entries,
+            3507 wiz_defined-function locations,
+            1074 strings with 17727 characters,
+and the built_in function-call counts, 117834 in all, are:
+= -- 13565
+> -- 1094
+< -- 531
++ -- 478
+- -- 249
+* -- 8925
+:= -- 12956
+add.period$ -- 240
+call.type$ -- 71
+change.case$ -- 42
+chr.to.int$ -- 1120
+cite$ -- 72
+duplicate$ -- 10092
+empty$ -- 11451
+format.name$ -- 263
+if$ -- 27859
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 659
+newline$ -- 344
+num.names$ -- 101
+pop$ -- 1969
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1547
+stack$ -- 0
+substring$ -- 20604
+swap$ -- 1753
+text.length$ -- 234
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 683
+width$ -- 73
+write$ -- 786
+(There was 1 warning)

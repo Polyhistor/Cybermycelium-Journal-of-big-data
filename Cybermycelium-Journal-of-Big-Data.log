@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  20 OCT 2022 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 OCT 2022 20:24
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex"
@@ -374,41 +374,46 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rotFPbot=\skip68
 \rot@float@box=\box61
 \rot@mess@toks=\toks37
-) (D:\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
+) (D:\MikTex\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (D:\MikTex\tex/latex/bookmark\bkm-pdftex-2019-12-03.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+\BKM@id=\count294
+)) (D:\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count294
+\l__kernel_color_stack_int=\count295
 \l__pdf_internal_box=\box62
 ) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.aux")
 \openout1 = `Cybermycelium-Journal-of-Big-Data.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
+\scratchcounter=\count296
 \scratchdimen=\dimen169
 \scratchbox=\box63
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count297
+\nofMParguments=\count298
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count298
+\MPscratchCnt=\count299
 \MPscratchDim=\dimen170
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks39
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -416,9 +421,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 98.
+(lastpage)             ! on input line 99.
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 98.
+Package hyperref Info: Link coloring ON on input line 99.
  (D:\MikTex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (D:\MikTex\tex/latex/refcount\refcount.sty
@@ -426,14 +431,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (D:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
-\@outlinefile=\write3
-\openout3 = `Cybermycelium-Journal-of-Big-Data.out'.
-
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (D:\MikTex\tex/latex/caption\ltcaption.sty
@@ -444,960 +446,80 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 104.
+(Font)              size <12> substituted on input line 105.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 112.
+(Font)              size <24.88> substituted on input line 113.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 133.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 134.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 133.
+(Font)              size <5> substituted on input line 134.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 133.
+(Font)              size <5> substituted on input line 134.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 133.
+(Font)              size <5> substituted on input line 134.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134.
 (D:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134.
  (D:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 133.
-
-
-LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 133.
-
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 137.
-
-
-LaTeX Warning: Reference `aff2thanks' on page 1 undefined on input line 137.
-
 \address@aff1=\toks40
 \address@aff2=\toks41
-
-LaTeX Warning: Reference `bmc@corref@authorthanks' on page 1 undefined on input line 177.
-
-
-LaTeX Warning: Reference `au1@email' on page 1 undefined on input line 177.
-
-
-LaTeX Warning: Reference `aff1thanks' on page 1 undefined on input line 177.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 1 undefined on input line 255.
-
-
-LaTeX Warning: Citation `AtaeiBigDataEnvirons' on page 1 undefined on input line 255.
-
-
-LaTeX Warning: Citation `AtaeiApsec' on page 1 undefined on input line 255.
-
-
-LaTeX Warning: Citation `internet2019internet' on page 1 undefined on input line 257.
-
-
-LaTeX Warning: Citation `lycett2013datafication' on page 1 undefined on input line 259.
-
-
-LaTeX Warning: Citation `AtaeiBigDataEnvirons' on page 1 undefined on input line 259.
-
-
-LaTeX Warning: Citation `AtaeiHype' on page 1 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Huberty' on page 1 undefined on input line 259.
-
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 261.
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 264.
+ [1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
+] [2] [3] [4] [5] [6] [7] [8]
 
-LaTeX Warning: Citation `DataBricksSurvey' on page 2 undefined on input line 261.
+LaTeX Warning: Reference `appendixA:RA-classification' on page 9 undefined on input line 402.
 
-
-LaTeX Warning: Citation `NewVantageSurvey' on page 2 undefined on input line 261.
-
-
-LaTeX Warning: Citation `analytics2016age' on page 2 undefined on input line 261.
-
-
-LaTeX Warning: Citation `Nash' on page 2 undefined on input line 261.
-
-
-LaTeX Warning: Citation `AtaeiBigDataEnvirons' on page 2 undefined on input line 263.
-
-
-LaTeX Warning: Citation `Singh' on page 2 undefined on input line 263.
-
-
-LaTeX Warning: Citation `Gorton' on page 2 undefined on input line 263.
-
-
-LaTeX Warning: Citation `Nadal' on page 2 undefined on input line 263.
-
-
-LaTeX Warning: Citation `AtaeiApsec' on page 2 undefined on input line 268.
-
-
-LaTeX Warning: Reference `background-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `RM-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `requirements-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `theory-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `artifact-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `evaluation-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `discussion-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `conclusion-section' on page 2 undefined on input line 271.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 286.
-
-[2]
-
-LaTeX Warning: Citation `leonard2011design' on page 3 undefined on input line 295.
-
-
-LaTeX Warning: Citation `brackenbury2018draining' on page 3 undefined on input line 296.
-
-
-LaTeX Warning: Citation `AtaeiHype' on page 3 undefined on input line 297.
-
-
-LaTeX Warning: Citation `lin2017lambda' on page 3 undefined on input line 297.
-
-
-LaTeX Warning: Citation `ApachBeam' on page 3 undefined on input line 297.
-
-
-LaTeX Warning: Citation `DataBricks' on page 3 undefined on input line 297.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 298.
-
-[3]
-
-LaTeX Warning: Citation `AtaeiApsec' on page 4 undefined on input line 300.
-
-
-LaTeX Warning: Citation `monolithToMesh' on page 4 undefined on input line 310.
-
-
-LaTeX Warning: Citation `alshuqayran2016systematic' on page 4 undefined on input line 312.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 313.
-
-[4]
-
-LaTeX Warning: Citation `SoftwareArchitectureKazman' on page 5 undefined on input line 321.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 5 undefined on input line 322.
-
-
-LaTeX Warning: Citation `SoftwareArchitectureKazman' on page 5 undefined on input line 325.
-
-
-LaTeX Warning: Citation `Cloutier' on page 5 undefined on input line 327.
-
-
-LaTeX Warning: Citation `kohler2019towards' on page 5 undefined on input line 327.
-
-
-LaTeX Warning: Citation `Derras' on page 5 undefined on input line 327.
-
-
-LaTeX Warning: Citation `Cloutier' on page 5 undefined on input line 327.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 5 undefined on input line 329.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 335.
-
-[5]
-
-LaTeX Warning: Citation `SoftwareArchitectureKazman' on page 6 undefined on input line 348.
-
-
-LaTeX Warning: Citation `sommerville2011software' on page 6 undefined on input line 366.
-
-
-LaTeX Warning: Citation `laplante2017requirements' on page 6 undefined on input line 366.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 370.
-
-[6]
-
-LaTeX Warning: Citation `Bughin2016' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `rad2017big' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `nadal2017software' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `volk2020identifying' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `bashari2016security' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `yu2019components' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `eridaputra2014modeling' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `al2016characteristics' on page 7 undefined on input line 372.
-
-
-LaTeX Warning: Citation `ataei2020big' on page 7 undefined on input line 374.
-
-
-LaTeX Warning: Citation `kassab2014state' on page 7 undefined on input line 377.
-
-
-LaTeX Warning: Citation `ISO29148' on page 7 undefined on input line 377.
-
-
-LaTeX Warning: Citation `abran2004software' on page 7 undefined on input line 377.
-
-
-LaTeX Warning: Citation `Cloutier' on page 7 undefined on input line 384.
-
-
-LaTeX Warning: Citation `bayer2004definition' on page 7 undefined on input line 384.
-
-
-LaTeX Warning: Citation `stricker2010creating' on page 7 undefined on input line 384.
-
-
-LaTeX Warning: Citation `gamma1995design' on page 7 undefined on input line 384.
-
-
-LaTeX Warning: Citation `nakagawa2009towards' on page 7 undefined on input line 384.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 385.
-
-[7]
-
-LaTeX Warning: Citation `galster2011empirically' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `nakagawa2014consolidating' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `nakagawa2012ramodel' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `santos2013checklist' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `derras2018reference' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `wg2015iso' on page 8 undefined on input line 386.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 8 undefined on input line 388.
-
-
-LaTeX Warning: Citation `galster2011empirically' on page 8 undefined on input line 388.
-
-
-LaTeX Warning: Citation `angelov2008towards' on page 8 undefined on input line 390.
-
-
-LaTeX Warning: Citation `angelov2014extending' on page 8 undefined on input line 390.
-
-
-LaTeX Warning: Citation `kazman1998architecture' on page 8 undefined on input line 390.
-
-
-LaTeX Warning: Citation `Cloutier' on page 8 undefined on input line 392.
-
-
-LaTeX Warning: Citation `Derras' on page 8 undefined on input line 392.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 394.
-
-[8]
-
-LaTeX Warning: Citation `angelov2009classification' on page 9 undefined on input line 398.
-
-
-LaTeX Warning: Citation `angelov2008contracting' on page 9 undefined on input line 398.
-
-
-LaTeX Warning: Citation `angelov2009classification' on page 9 undefined on input line 400.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 9 undefined on input line 404.
-
-
-LaTeX Warning: Citation `angelov2009classification' on page 9 undefined on input line 404.
-
-
-LaTeX Warning: Reference `appendixA:RA-classification' on page 9 undefined on input line 404.
-
-
-LaTeX Warning: Citation `angelov2008towards' on page 9 undefined on input line 410.
-
-
-LaTeX Warning: Citation `galster2011empirically' on page 9 undefined on input line 410.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 413.
-
-[9]
-
-LaTeX Warning: Citation `gan2019open' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `laigner2021data' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `laigner2021data' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `QCON' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `ThoughtWorks' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `Geekle' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `KafkaSummit' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Citation `moher2015preferred' on page 10 undefined on input line 429.
-
-
-LaTeX Warning: Citation `kitchenham2015evidence' on page 10 undefined on input line 429.
-
-
-LaTeX Warning: Citation `AtaeiACIS' on page 10 undefined on input line 431.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 434.
-
-[10]
-
-LaTeX Warning: Citation `AtaeiApsec' on page 11 undefined on input line 435.
-
-
-LaTeX Warning: Citation `castellanos2021smart' on page 11 undefined on input line 435.
-
-
-LaTeX Warning: Citation `sang2017simplifying' on page 11 undefined on input line 435.
-
-
-LaTeX Warning: Citation `ISO20546' on page 11 undefined on input line 435.
-
-
-LaTeX Warning: Citation `ISO20547' on page 11 undefined on input line 435.
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex:440: Missing number, treated as zero.
-<to be read again> 
-                   z
-l.440             \item
-                        Primary and secondary studies between Jan 1st 2020 a...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex:440: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   z
-l.440             \item
-                        Primary and secondary studies between Jan 1st 2020 a...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex:447: Missing number, treated as zero.
-<to be read again> 
-                   z
-l.447             \item
-                        Informal literature surveys without any clearly defi...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Cybermycelium-Journal-of-Big-Data.tex:447: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   z
-l.447             \item
-                        Informal literature surveys without any clearly defi...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-LaTeX Warning: Citation `krippendorff2011computing' on page 11 undefined on input line 455.
-
-
-LaTeX Warning: Citation `kitchenham2015evidence' on page 11 undefined on input line 457.
-
-
-LaTeX Warning: Citation `CASP' on page 11 undefined on input line 457.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 469.
-
-[11]
-
-LaTeX Warning: Reference `fig:PRISMA' on page 12 undefined on input line 501.
-
-<PRISMA.JPG, id=118, 1031.35312pt x 610.53094pt>
+[9] [10] [11]
+<PRISMA.JPG, id=295, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
 Package pdftex.def Info: PRISMA.JPG  used on input line 505.
 (pdftex.def)             Requested size: 284.52756pt x 168.43219pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 506.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Reference `fig:SLRStats' on page 12 undefined on input line 511.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 512.
-
-[12 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/PRISMA.JPG>]
-<databases-statitistic.jpg, id=133, 1003.75pt x 668.4975pt>
+<databases-statitistic.jpg, id=297, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
 Package pdftex.def Info: databases-statitistic.jpg  used on input line 515.
 (pdftex.def)             Requested size: 341.43306pt x 227.39835pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 516.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Citation `cruzes2011recommended' on page 13 undefined on input line 521.
-
-
-LaTeX Warning: Citation `lofland1971analyzing' on page 13 undefined on input line 521.
-
-
-LaTeX Warning: Citation `nvivo' on page 13 undefined on input line 521.
-
-
-LaTeX Warning: Reference `appendixA:SLR' on page 13 undefined on input line 521.
-
-
-LaTeX Warning: Citation `ISO42010' on page 13 undefined on input line 525.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 527.
-
-[13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/databases-statitistic.jpg>]
-
-LaTeX Warning: Citation `angelov2012framework' on page 14 undefined on input line 527.
-
-
-LaTeX Warning: Citation `Cloutier' on page 14 undefined on input line 528.
-
-
-LaTeX Warning: Citation `vogel2009software' on page 14 undefined on input line 528.
-
-
-LaTeX Warning: Citation `Stricker' on page 14 undefined on input line 530.
-
-
-LaTeX Warning: Citation `Chang' on page 14 undefined on input line 530.
-
-
-LaTeX Warning: Citation `lankhorst2013language' on page 14 undefined on input line 532.
-
-
-LaTeX Warning: Citation `lankhorst2010anatomy' on page 14 undefined on input line 532.
-
-
-LaTeX Warning: Citation `engelsman2011extending' on page 14 undefined on input line 532.
-
-
-LaTeX Warning: Citation `rurua2019representing' on page 14 undefined on input line 539.
-
-
-LaTeX Warning: Citation `la2009questionnaire' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `rosemann2007configurable' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `hallerbach2010capturing' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `pohl2005software' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `chen2011systematic' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `schmid2004customizable' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `svahnberg2005taxonomy' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `sinnema2006covamof' on page 14 undefined on input line 541.
-
-
-LaTeX Warning: Citation `czarnecki2012cool' on page 14 undefined on input line 543.
-
-
-LaTeX Warning: Citation `galster2011empirically' on page 14 undefined on input line 543.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 547.
-
-[14]
-
-LaTeX Warning: Citation `rurua2019representing' on page 15 undefined on input line 551.
-
-
-LaTeX Warning: Reference `variability' on page 15 undefined on input line 553.
-
-
-LaTeX Warning: Citation `pohl2005software' on page 15 undefined on input line 553.
-
-
-LaTeX Warning: Citation `rurua2019representing' on page 15 undefined on input line 553.
-
-
-LaTeX Warning: Reference `the-artifact' on page 15 undefined on input line 553.
-
-<variability-model.JPG, id=147, 1282.7925pt x 607.26875pt>
-File: variability-model.JPG Graphic file (type jpg)
-<use variability-model.JPG>
-Package pdftex.def Info: variability-model.JPG  used on input line 557.
-(pdftex.def)             Requested size: 369.88582pt x 175.10268pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 558.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (21.38582pt too wide) in paragraph at lines 557--558
- [][] 
- []
-
-
-LaTeX Warning: Citation `galster2011empirically' on page 15 undefined on input line 564.
-
-
-LaTeX Warning: Citation `sharpe2019industrial' on page 15 undefined on input line 564.
-
-
-LaTeX Warning: Citation `angelov2008contracting' on page 15 undefined on input line 566.
-
-
-LaTeX Warning: Citation `Avgeriou' on page 15 undefined on input line 566.
-
-
-LaTeX Warning: Citation `Cioroaica' on page 15 undefined on input line 566.
-
-
-LaTeX Warning: Citation `Maier' on page 15 undefined on input line 566.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 570.
-
-[15 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/variability-model.JPG>]
-
-LaTeX Warning: Citation `kazman1994saam' on page 16 undefined on input line 574.
-
-
-LaTeX Warning: Citation `Bengtsson' on page 16 undefined on input line 574.
-
-
-LaTeX Warning: Citation `Williams' on page 16 undefined on input line 574.
-
-
-LaTeX Warning: Citation `KazmanATAM' on page 16 undefined on input line 574.
-
-
-LaTeX Warning: Citation `angelov2008towards' on page 16 undefined on input line 577.
-
-
-LaTeX Warning: Citation `Avgeriou' on page 16 undefined on input line 578.
-
-
-LaTeX Warning: Citation `bengtsson1998scenario' on page 16 undefined on input line 578.
-
-
-LaTeX Warning: Citation `angelov2008towards' on page 16 undefined on input line 583.
-
-
-LaTeX Warning: Citation `graaf2005evaluating' on page 16 undefined on input line 585.
-
-
-LaTeX Warning: Citation `Maier' on page 16 undefined on input line 585.
-
-
-LaTeX Warning: Citation `galster2011empirically' on page 16 undefined on input line 585.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 587.
-
-[16]
-
-LaTeX Warning: Citation `rohling2019reference' on page 17 undefined on input line 587.
-
-
-LaTeX Warning: Citation `Nakagawa' on page 17 undefined on input line 587.
-
-
-LaTeX Warning: Citation `nakagawa2012ramodel' on page 17 undefined on input line 587.
-
-
-LaTeX Warning: Reference `requirement-spec-methodology' on page 17 undefined on input line 593.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 625.
-
-[17]
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 660.
-
-[18]
-
-LaTeX Warning: Reference `State of the art' on page 19 undefined on input line 732.
-
-
-LaTeX Warning: Citation `hypothesisDev' on page 19 undefined on input line 745.
-
-
-LaTeX Warning: Citation `monolithToMesh' on page 19 undefined on input line 745.
-
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 746.
-
-[19]
-
-LaTeX Warning: Citation `ford2017building' on page 20 undefined on input line 748.
-
-
-LaTeX Warning: Citation `newman2021building' on page 20 undefined on input line 748.
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 758.
-
-[20]
-
-LaTeX Warning: Reference `need for paradigm shift' on page 21 undefined on input line 768.
-
-
-LaTeX Warning: Citation `EventDrivenMicroServices' on page 21 undefined on input line 770.
-
-
-LaTeX Warning: Citation `evans2004domain' on page 21 undefined on input line 770.
-
-
-LaTeX Warning: Citation `aceto2007reactive' on page 21 undefined on input line 770.
-
-
-LaTeX Warning: Citation `dataMeshArticle' on page 21 undefined on input line 774.
-
-
-LaTeX Warning: Citation `di2017architecting' on page 21 undefined on input line 776.
-
-
-LaTeX Warning: Citation `zimmermann2017microservices' on page 21 undefined on input line 776.
-
-
-LaTeX Warning: Citation `waseem2020systematic' on page 21 undefined on input line 776.
-
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 781.
-
-[21]
-
-LaTeX Warning: Citation `laigner2021data' on page 22 undefined on input line 795.
-
-
-LaTeX Warning: Citation `sudhakar2012model' on page 22 undefined on input line 799.
-
-
-LaTeX Warning: Citation `khononov2021learning' on page 22 undefined on input line 799.
-
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 802.
-
-[22]
-
-LaTeX Warning: Reference `data-facets' on page 23 undefined on input line 807.
-
-<Media/product-facets.jpg, id=231, 702.625pt x 661.47125pt>
-File: Media/product-facets.jpg Graphic file (type jpg)
-<use Media/product-facets.jpg>
-Package pdftex.def Info: Media/product-facets.jpg  used on input line 811.
-(pdftex.def)             Requested size: 284.52756pt x 267.8641pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 813.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 817.
-
-[23 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/product-facets.jpg>]
-
-LaTeX Warning: Citation `Terraform' on page 24 undefined on input line 824.
-
-
-LaTeX Warning: Citation `Segment' on page 24 undefined on input line 824.
-
-
-LaTeX Warning: Citation `Helm' on page 24 undefined on input line 826.
-
-
-LaTeX Warning: Citation `Make' on page 24 undefined on input line 826.
-
-
-LaTeX Warning: Citation `alshuqayran2016systematic' on page 24 undefined on input line 831.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 832.
-
-[24]
-
-LaTeX Warning: Citation `josey2016togaf' on page 25 undefined on input line 833.
-
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 845.
-
-[25]
-
-LaTeX Warning: Reference `fig:Cybermycelium Product Domain Design' on page 26 undefined on input line 851.
-
-
-LaTeX Warning: Reference `fig:Cybermycelium' on page 26 undefined on input line 853.
-
-<Media/Cybermycelium.jpg, id=251, 1528.71124pt x 740.7675pt>
-File: Media/Cybermycelium.jpg Graphic file (type jpg)
-<use Media/Cybermycelium.jpg>
-Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 860.
-(pdftex.def)             Requested size: 654.41338pt x 317.11092pt.
-
-Overfull \hbox (1.41338pt too wide) in paragraph at lines 860--861
-[][] 
- []
-
-<Media/Product Domain.jpg, id=252, 819.06pt x 529.98pt>
-File: Media/Product Domain.jpg Graphic file (type jpg)
-<use Media/Product Domain.jpg>
-Package pdftex.def Info: Media/Product Domain.jpg  used on input line 869.
-(pdftex.def)             Requested size: 341.43306pt x 220.93227pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 870.
-See the caption package documentation for explanation.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 882.
+LaTeX Warning: Reference `appendixA:SLR' on page 12 undefined on input line 521.
 
-[26]
-
-LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 882.
-
-[27 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Cybermycelium.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 885.
-
-[28 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Product Domain.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 887.
-
-[29]
-
-LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 892.
-
-[30]
-
-LaTeX Warning: Citation `ISOMetadata' on page 31 undefined on input line 893.
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 895--896
-[]\OT1/cmr/bx/n/10 Security Reg-u-la-tions: \OT1/cmr/m/n/10 com-pany wide reg-u-la-tions on
- []
-
-
-LaTeX Warning: Citation `GartnerDataCatalog' on page 31 undefined on input line 900.
-
-
-LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 901.
-
-[31]
-
-LaTeX Warning: Citation `MicroServicesPatterns' on page 32 undefined on input line 902.
-
-
-LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 908.
-
-[32]
-
-LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 924.
-
-[33]
-
-LaTeX Warning: Citation `wieringa2014design' on page 34 undefined on input line 927.
-
-
-LaTeX Warning: Citation `ISO25000' on page 34 undefined on input line 929.
-
-
-LaTeX Warning: Reference `fig:ConcreteCyberMycelium' on page 34 undefined on input line 933.
-
-<Media/concrete-mycelium.jpg, id=308, 1564.84625pt x 785.93625pt>
-File: Media/concrete-mycelium.jpg Graphic file (type jpg)
-<use Media/concrete-mycelium.jpg>
-Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 937.
-(pdftex.def)             Requested size: 654.41338pt x 328.67587pt.
-
-Overfull \hbox (1.41338pt too wide) in paragraph at lines 937--938
-[][] 
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 943.
-
-[34]
-
-LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 943.
-
-[35 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/concrete-mycelium.jpg>]
-
-LaTeX Warning: Reference `theory-section' on page 36 undefined on input line 962.
-
-
-LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 966.
-
-[36]
-
-LaTeX Warning: Reference `fig:utility-tree' on page 37 undefined on input line 967.
-
-<Media/Utility-tree.jpg, id=327, 863.225pt x 572.1375pt>
-File: Media/Utility-tree.jpg Graphic file (type jpg)
-<use Media/Utility-tree.jpg>
-Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 971.
-(pdftex.def)             Requested size: 284.52756pt x 188.57896pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 972.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `evaluation-results' on page 37 undefined on input line 988.
-
-
-LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 991.
-
-[37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/Media/Utility-tree.jpg>]
-
-LaTeX Warning: Citation `KazmanATAM' on page 38 undefined on input line 999.
-
-
-LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 1015.
-
-[38]
-
-LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 1040.
-
-[39]
-
-LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 1067.
-
-[40]
-
-LaTeX Warning: Citation `kazman1994saam' on page 41 undefined on input line 1075.
-
-
-LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 1097.
-
-[41]
-
-LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 1109.
-
-[42]
-
-LaTeX Warning: Citation `angelov2008towards' on page 43 undefined on input line 1125.
-
-
-LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 1128.
-
-[43]
-No file Cybermycelium-Journal-of-Big-Data.bbl.
-
+[12 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/PRISMA.JPG>] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.bbl" [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Big Data - Cybermycelium/databases-statitistic.jpg>] [14]) 
 AED: lastpage setting LastPage
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1192.
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1192.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1192.
 
-LaTeX Warning: Reference `LastPage' on page 44 undefined on input line 1247.
-
-[44]
-
-Package caption Warning: Unused \captionsetup[table] on input line 69.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1247.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1247.
-("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1247.
-
-
-Package rerunfilecheck Warning: File `Cybermycelium-Journal-of-Big-Data.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Cybermycelium-Journal-of-Big-Data.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  56D9CA24D63B93CCEB714A647C18EB4D;3806.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1405,29 +527,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1247.
- )
-(\end occurred when \ifx on line 177 was incomplete)
-(\end occurred when \iffalse on line 177 was incomplete) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1192.
+ ) 
 Here is how much of TeX's memory you used:
- 10458 strings out of 480795
- 152165 string characters out of 2913777
- 425984 words of memory out of 3000000
- 26034 multiletter control sequences out of 15000+200000
- 545245 words of font info for 73 fonts, out of 3000000 for 9000
+ 10517 strings out of 480795
+ 153879 string characters out of 2913777
+ 438089 words of memory out of 3000000
+ 26176 multiletter control sequences out of 15000+200000
+ 541962 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,1869b,536s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{aff2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{aff1} has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx5.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.pdf" (44 pages, 1157914 bytes).
+ 38i,9n,43p,1854b,543s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.pdf" (15 pages, 467298 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 235 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

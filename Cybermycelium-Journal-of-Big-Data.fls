@@ -122,6 +122,10 @@ INPUT D:\MikTex\tex\latex\appendix\appendix.sty
 INPUT D:\MikTex\tex\latex\appendix\appendix.sty
 INPUT D:\MikTex\tex\latex\graphics\rotating.sty
 INPUT D:\MikTex\tex\latex\graphics\rotating.sty
+INPUT D:\MikTex\tex\latex\bookmark\bookmark.sty
+INPUT D:\MikTex\tex\latex\bookmark\bookmark.sty
+INPUT D:\MikTex\tex\latex\bookmark\bkm-pdftex-2019-12-03.def
+INPUT D:\MikTex\tex\latex\bookmark\bkm-pdftex-2019-12-03.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT D:\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.aux
@@ -137,7 +141,6 @@ INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.out
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.pdf
 INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
 INPUT D:\MikTex\tex\latex\caption\ltcaption.sty
@@ -165,7 +168,6 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -174,15 +176,12 @@ INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx5.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx7.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss12.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssi8.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
-INPUT D:\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\PRISMA.JPG
@@ -195,65 +194,17 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\databases-statitistic.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\databases-statitistic.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\databases-statitistic.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\variability-model.JPG
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\variability-model.JPG
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\variability-model.JPG
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\variability-model.JPG
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\variability-model.JPG
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\product-facets.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\product-facets.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\product-facets.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\product-facets.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\product-facets.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Cybermycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Cybermycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Cybermycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Cybermycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Cybermycelium.jpg
-INPUT D:\MikTex\fonts\tfm\public\cm\cmr6.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmmi6.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmsy6.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Product Domain.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Product Domain.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Product Domain.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Product Domain.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Product Domain.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\concrete-mycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\concrete-mycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\concrete-mycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\concrete-mycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\concrete-mycelium.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Utility-tree.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Utility-tree.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Utility-tree.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Utility-tree.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Media\Utility-tree.jpg
 INPUT D:\MikTex\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.bbl
+INPUT D:\MikTex\fonts\tfm\public\cm\cmtt8.tfm
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.aux
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Big Data - Cybermycelium\Cybermycelium-Journal-of-Big-Data.out
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx5.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss17.pfb
@@ -264,3 +215,5 @@ INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
