@@ -111,7 +111,8 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Application of Microservices Patterns to Big Data Systems}
+\title{Cybermycelium: Domain-Driven Distributed Reference
+Architecture for Big Data Systems}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -192,7 +193,8 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-  The panorama of data is ever evolving, and big data has emerged to become one of the most hyped terms in the industry. Today, users are the perpetual producers of data that if gleaned and crunched, will yield game-changing patterns. This has introduced an important shift about the role of data in organizations and many strived to harness to power of this new material. Howbeit, institutionalizing data is not an easy task and requires the absorption of a great deal of complexity. According to various sources, it is estimated that only 13\% of organizations succeeded in delivering on their data strategy. Among the root challenges, big data system development and data architecture are prominent. To this end, this study aims to facilitate data architecture and big data system development by applying well-established patterns of microservices architecture to big data systems. This objective is achieved by two systematic literature reviews, and infusion of results through thematic synthesis. The result of this work is a series of theories that explicates how microservices patterns could be useful for big data systems. These theories are then validated through a semi-structured interview with experts from the industry. The findings emerged from this study indicates that big data architecture can benefit from many principles and patterns of microservices architecture. 
+    The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven
+    decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -204,13 +206,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{keyword}
-\kwd{big data}
-\kwd{microservices}
-\kwd{microservices patterns}
+\kwd{Reference architecture}
+\kwd{Big data reference architecture}
 \kwd{big data architecture}
-\kwd{data architecture}
-\kwd{data engineering}
+\kwd{Architecture}
+\kwd{Big data systems}
+\kwd{Big data software engineering}
 \end{keyword}
+
 
 % MSC classifications codes, if any
 %\begin{keyword}[class=AMS]
@@ -255,7 +258,7 @@
 \section{Introduction}
 
 
-Since the dawn of internet and world wide web, humanity has witnessed an unprecedented degree of connection. The proliferation of digital devices pervaded with powerful software applications have created cyber communities that constantly mutate \cite{AtaeiACIS,AtaeiBigDataEnvirons}. In a world where we have network infrastructures that can support up to 250Mbps of data transmission, and smart phones and internet of things (IOT) devices that can have processing power of up to 3 Ghz, data becomes ubiquitous, the quantum that lays the foundation of the nexus \cite{AtaeiApsec}. According to InternetLiveStates.com \cite{internet2019internet}, only in one second, there are 9,878 tweets sent, 1,138 instagram photos uploaded, 3,117,720 emails sent, 99,738 Google searches made, and 94,144 Youtube videos viewed. That is, if it has taken 5 second to read the preceding paragraph, during that time, 15,588,600 emails are sent.
+Since the dawn of internet and world wide web, humanity has witnessed an unprecedented degree of connection. The proliferation of digital devices pervaded with powerful software applications have created cyber communities that constantly mutate \cite{AtaeiACIS,AtaeiBigDataEnvirons}. In a world where we have network infrastructures that can support up to 250Mbps of data transmission, and smart phones and internet of things (IOT) devices that can have processing power of up to 3 Ghz, data becomes ubiquitous, the quantum that lays the foundation of the nexus \cite{AtaeiApsec}. According to Internetlivestates.com \cite{internet2019internet}, only in one second, there are 9,878 tweets sent, 1,138 instagram photos uploaded, 3,117,720 emails sent, 99,738 Google searches made, and 94,144 Youtube videos viewed. That is, if it has taken 5 second to read the preceding paragraph, during that time, 15,588,600 emails are sent.
 
 Driven by the ambition to harness the power of this large amount of data, the term BD was coined \cite{lycett2013datafication}. BD initially emerged to address the challenges associated with various characteristics of data such as velocity, variety, volume and variability \cite{AtaeiBigDataEnvirons}. BD is the practice of extracting patterns, theories, and predictions from a large set of structured, semi-structured, and unstructured data for the purposes of business competitive advantage \cite{AtaeiHype,Huberty}. BD is a game-changing innovation, heralding the dawn of a new data-oriented industry. Nonetheless, BD is not a magical wand that can enchant any business process. While a lot of opportunities exist in BD, subsuming an emergent and rather high-impacting technology like BD to current state of affairs in organizations, is a daunting task. 
 
@@ -263,11 +266,10 @@ According to recent survey from Databricks, only 13\% of the organizations excel
 
 There are various challenge for adoption of BD such as `data architecture', `rapid technology change', `lack of sufficiently skilled data engineers', and `organization's cultural challenges of becoming data-driven' \cite{AtaeiBigDataEnvirons, Singh}. Among these challenges, 'data architecture' is highlighted. A successful BD system is built upon a solid data architecture, serving as a blue print that affects data lifecycle management, guides data integration, control data assets and handle change. Nevertheless, majority of BD systems are developed on-premise as ad-hoc complicated solutions that do not adhere to the practices of software engineering and software architecture \cite{Gorton,Nadal}. As the data ecosystem grows and new technologies and data processing techniques are introduced, the software architect will have a harder time maintaining a solution that addresses the emergent requirements.
 
-To this end, our study aims to address the challenges of data architecture by proposing a reference architecture (RA). RAs are suitable artifacts for development of complex systems as they capture the essence of knowledge for a class of systems and inject it into practices as high-level models that different stakeholders can reflect on. This can potentially create grounds for an immature architecture that is hard to scale, hard to maintain, and raise high-entry blockades \cite{AtaeiApsec}. Since the approach of ad-hoc design to BD system development is not desirable and may leave many architects in the dark, novel data architectures that are designed specifically for BD are required. To contribute to this goal, we explore the notion of RAs and present a distributed domain-driven software RA for BD systems. This RA is called Cybermycelium. The contribution of this work is threefold: 1) explicating design theories underlying current BD systems, 2) explicating design theories that generate the artefact's constructs, and 3) the artefact. 
+This can potentially create grounds for an immature architecture that is hard to scale, hard to maintain, and raise high-entry blockades \cite{AtaeiApsec}. Since the approach of ad-hoc design to BD system development is not desirable and may leave many architects in the dark, novel data architectures that are designed specifically for BD are required. To contribute to this goal, we explore the notion of RAs and present a distributed domain-driven software RA for BD systems. This RA is called Cybermycelium. The contribution of this study is threefold: 1) explicating design theories underlying current BD systems, 2) explicating design theories that generate the artefact's constructs, and 3) the artefact. 
 
-% uncomment later
 
-The contents of this paper is presented in the following order: 1) in Section~\ref*{background-section} (background), we provide a brief discussion on what's known about the topic under investigation, the problems associated with it, and the rationale for our study, 2) in Section~\ref*{RM-section} (research methodology), we discuss the integral elements of our research methodology with corresponding justifications, 3) in Section~\ref*{requirements-section} (requirement specification), we discuss the requirements that has led to creation of the artefact, 4) in Section~\ref*{theory-section} (why Cybermycelium), we expand on the problem stated in the background section and provide with theories that explains the challenges of maintaining current BD systems, 5) in Section~\ref*{artifact-section} (Cybermycelium: A Domain-Driven Distributed Reference Architecture for Big Data Systems), we explicate the theories that underpin the artefact development and the artefact itself, 6) in Section~\ref*{evaluation-section} (evaluation), we provide an evaluation of the artefact, 7) in Section~\ref*{discussion-section} (discussion), we elaborate on other BD RAs, and the distinct qualities and limitations of our artefact, 8) in Section~\ref*{conclusion-section} (conclusion), we conclude the study summing up the findings.
+The contents of this paper is presented in the following order: 1) in Section~\ref*{background-section} (background), we provide a brief discussion on what's known about the topic under investigation, the problems associated with it, and the rationale for our study, 2) in Section~\ref*{RM-section} (research methodology), we discuss the integral elements of our research methodology with corresponding justifications, 3) in Section~\ref*{requirements-section} (requirement specification), we discuss the requirements that has led to creation of the artefact, 4) in Section~\ref*{theory-section} (why Cybermycelium?), we expand on the problem stated in the background section and provide with theories that explains the challenges of maintaining current BD systems, 5) in Section~\ref*{artifact-section} (Cybermycelium: A Domain-Driven Distributed Reference Architecture for Big Data Systems), we explicate the theories that underpin the artefact development and the artefact itself, 6) in Section~\ref*{evaluation-section} (evaluation), we provide an evaluation of the artefact, 7) in Section~\ref*{discussion-section} (discussion), we elaborate on other BD RAs, and the distinct qualities and limitations of our artefact, 8) in Section~\ref*{conclusion-section} (conclusion), we conclude the study summing up the findings.
 
 
 % This focus of this study is on data engineering complexities and in specific BD architecture.
