@@ -43,7 +43,7 @@
 %%% loading packages, author definitions
 
 %\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
-\documentclass{bmcart}
+\documentclass[doublespacing]{bmcart}
 
 %%% Load packages
 \usepackage{amsthm,amsmath}
@@ -68,6 +68,8 @@
 \usepackage{rotating}
 \usepackage{bookmark}
 \setlistdepth{9}
+% \renewcommand\thefigure{\arabic{figure}}
+% \setcounter{figure}{0}
 % \captionsetup[table]{skip=6pt}
 
 
@@ -129,10 +131,9 @@ Architecture for Big Data Systems}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author[
-  addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
-  corref={aff1},                       % id of corresponding address, if any
-% noteref={n1},                        % id's of article notes, if any
-  email={pouya.ataei@aut.ac.nz}   % email address
+  addressref={aff1},              
+  corref={aff1},                    
+  email={pouya.ataei@aut.ac.nz}   
 ]{\inits{Mr}\fnm{Pouya} \snm{Ataei}}
 \author[
   addressref={aff2}, 
@@ -148,17 +149,16 @@ Architecture for Big Data Systems}
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\address[id=aff1]{%                           % unique id
-  \orgdiv{School of Engineering, Computer and Mathematical Sciences},             % department, if any
-  \orgname{Auckland University of Technology},          % university, etc
-  \city{Auckland},                              % city
-  \cny{New Zealand}                                    % country
+\address[id=aff1]{
+  \orgdiv{School of Engineering Computer and Mathematical Sciences},         
+  \orgname{Auckland University of Technology},        
+  \city{Auckland},                              
+  \cny{New Zealand}                              
 }
-\address[id=aff2]{%
-  \orgdiv{Service and Cloud Computing Research La},
+
+\address[id=aff2]{
+  \orgdiv{Service and Cloud Computing Research Lab},
   \orgname{Auckland University of Technology},
-  %\street{},
-  %\postcode{}
   \city{Auckland},
   \cny{New Zealand}
 }
@@ -192,9 +192,8 @@ Architecture for Big Data Systems}
 
 \begin{abstractbox}
 
-\begin{abstract} % abstract
-    The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven
-    decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges.
+\begin{abstract} 
+    The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -253,7 +252,7 @@ Architecture for Big Data Systems}
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-
+test
 
 \section{Introduction}
 
@@ -281,8 +280,6 @@ The contents of this paper is presented in the following order: 1) in Section~\r
 % We posit that majority of the challenge discussed starts with data architecture \cite{AtaeiACIS}; \cite{AtaeiApsec}. The data ingestion, processing and consumption of different data workloads vary, and sometimes they don't go well together. A company that enacted a data lake and a data warehouse and tries to account for both ecosystems, can be dealing with immense complexity, which in turns impact data teams, which in turn can hinder innovation, create barriers and result in monumental  loss.
 
 % Development and deployment of an efficacious BD system is only the beginning of a BD journey. As data sources increase, variety of data increases, number of data consumers increase, the data store gets confuscated, and this can introduce threats for scalability and maintainability of the system. This also implies that only a handful of hyper-specialized data engineers would understand the system internals, creating silos, and potential miscommunication.
-
-
 
 \section{Background} \label{background-section}
 
@@ -503,22 +500,22 @@ reliability.
 
 After pooling the studies, 13 studies have been removed based on inclusion  and exclusion criteria. From there on, 76 studies have been assessed for eligibility based on the quality framework and the inclusion criteria. The result of this process handed over 63 studies from this branch (identification of studies visa database and registers). From the other branch (identification of data via other methods), 10 records identified through citation searching. These reports have been assessed through the same quality framework, inclusion and exclusion criteria, yielding 5 studies. Together 68 studies pooled for this SLR as depicted in Figure \ref{fig:PRISMA}.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=10cm]{PRISMA.JPG}
-    \caption{PRISMA flowchart}
-    \label{fig:PRISMA}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=10cm]{PRISMA.JPG}
+%     \caption{PRISMA flowchart}
+%     \label{fig:PRISMA}
+% \end{figure}
 
 
 These 68 studies are comprising of journal papers, conference papers, book chapters, tech reports, tech surveys white papers, standards, master dissertation, and PhD thesis. Out of the pool of these studies, 39.4\% are from IEEE Explore, 4.4\% are from ScienceDirect, 23.5\% are from Springerlink, 13.2\% are from ACM, and 29.4\% are from other sources such as citation search, Google Scholar and Research Gate. 30 journal articles, 14 conference papers, 6 whitepapers, 2 ISO standards, 14 book chapters, and 2 postgraduate studies have been selected. 26\% of these studies are from the year 2010-2013, 33\% are from the years 2013-2015, and 51\% are from the years 2016-2022. These stats are portrayed in Figure \ref{fig:SLRStats}.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=12cm]{databases-statitistic.jpg}
-    \caption{SLR statistics}
-    \label{fig:SLRStats}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=12cm]{databases-statitistic.jpg}
+%     \caption{SLR statistics}
+%     \label{fig:SLRStats}
+% \end{figure}
 
 
 By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. For this purpose, we employed thematic synthesis presented by Cruzes et al. \cite{cruzes2011recommended}. An integral element of this phase is data extraction, in which the essence of the studies are obtained in an explicit and consistent manner. We opted for an integrated approach to coding \cite{lofland1971analyzing} using the software Nvivo \cite{nvivo}. All the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. To increase transparency, RAs and standards found as the result of this SRL is presented in \ref{appendixA:SLR}. 
@@ -556,12 +553,12 @@ We could not find an in-detail explanation of how one should choose the appropri
 
 The variability model is depicted in Fig \ref{variability} by the means of Archimate's motivation layer. This modeling is inspired by the works of Pohl et al. \cite{pohl2005software} and in specific their graphical notation of variability information, and Rurua et al. \cite{rurua2019representing} and in specific, their variability management concepts model. Our variability model can be employed by the architect to be used on variable components of Cybermycelium discussed in \ref{the-artifact}.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=12cm]{variability-model.JPG}
-    \caption{Variability management concepts model}
-    \label{variability}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=12cm]{variability-model.JPG}
+%     \caption{Variability management concepts model}
+%     \label{variability}
+% \end{figure}
 
 \subsection{Evaluation of the RA}
 
@@ -794,7 +791,6 @@ Based on the premises discussed and overcome the limitations, we posit 4 underpi
     \item Data infrastructure automation
     \item Governance through a federation service
     \item Event driven services
-
 \end{enumerate}
 
 \subsubsection{Distributed Domain-driven services with bounded context}
@@ -813,12 +809,12 @@ To this challenge, domain-driven design proposes a better approach to convey kno
 
 Data can be conceived as the fourth dimension of a product next to UI/UX, business and application as displayed in Figure \ref{fig:data-facets}. Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the `invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=10cm]{Media/product-facets.jpg}
-    \caption{Product Facets}
-    \label{fig:data-facets}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=10cm]{Media/product-facets.jpg}
+%     \caption{Product Facets}
+%     \label{fig:data-facets}
+% \end{figure}
 
 However this data-as-a-service model should be carefully implemented to account for explorability, discoverability, security, and quality. The data provided as a service should have the identical qualities to customer-facing products. This also implies, that a product owner should now treat data facet as an aspect of the product and employ objective measures that assure the desired quality. These measures can be net promoter scores from data consumers, data provenance, and decreased lead time. Product owners, in addition to the application and design aspect of the product, must now incorporate this new facet, and try to understand the needs of the data consumers, how they consume the data, and what are the common tools and technologies to consume the data. This knowledge can help shaping better interfaces for the product.
 
@@ -862,21 +858,21 @@ Cybermycelium is made up of 11 main components and 9 variable components as depi
 
 
 
-\begin{sidewaysfigure}
-    % \begin{figure}[h!]
-        \includegraphics[width=23cm]{Media/Cybermycelium.jpg}
-        \caption{Cybermycelium BD Reference Architecture}
-        \label{fig:Cybermycelium}
-    % \end{figure}
-\end{sidewaysfigure}
+% \begin{sidewaysfigure}
+%     % \begin{figure}[h!]
+%         \includegraphics[width=23cm]{Media/Cybermycelium.jpg}
+%         \caption{Cybermycelium BD Reference Architecture}
+%         \label{fig:Cybermycelium}
+%     % \end{figure}
+% \end{sidewaysfigure}
 
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=12cm]{Media/Product Domain.jpg}
-    \caption{Cybermycelium Product Domain Design}
-    \label{fig:Cybermycelium Product Domain Design}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=12cm]{Media/Product Domain.jpg}
+%     \caption{Cybermycelium Product Domain Design}
+%     \label{fig:Cybermycelium Product Domain Design}
+% \end{figure}
 
 
 The main elements are;
@@ -939,12 +935,12 @@ By applying standard and the requirements of Cybermycelium to the pool of availa
 
 We chose Node JS for all APIs and custom scripting, Nginx as our ingress, AWS Lambdas for stream and batch processing controllers, Kafka for event backbone, Kafka event brokers as the event broker, AWS application load balancer as the egress load balancer, Istio as the control tower, Envoy as the side car, Kubernetes as the container orchestrator, AWS S3 as the BD store and event archive, and Data Bricks for stream and batch processing. The prototype created out of Cybermycelium is depicted in Figure \ref{fig:ConcreteCyberMycelium}
 
-\begin{sidewaysfigure}
-    % \centering
-    \includegraphics[width=23cm]{Media/concrete-mycelium.jpg}
-    \caption{Cybermycelium Instantiation}
-    \label{fig:ConcreteCyberMycelium}
-\end{sidewaysfigure}
+% \begin{sidewaysfigure}
+%     % \centering
+%     \includegraphics[width=23cm]{Media/concrete-mycelium.jpg}
+%     \caption{Cybermycelium Instantiation}
+%     \label{fig:ConcreteCyberMycelium}
+% \end{sidewaysfigure}
 
 We aimed to incorporate most components of our RA into this instance, however logging, monitoring, service discovery, federated governance service, and data catalog has been omitted. Some details of this evaluation is omitted to protect the security, and intellectual property of the practice, and some details are modified for academic purposes. These modifications have not affected the integrity of the evaluation. This evaluation is an iterative process, collecting feedback from different group of stakeholders in each phase. 
 
@@ -973,12 +969,12 @@ In order to generate the utility tree, first we had to learn what are the most i
 
 Based on these premises, the utility tree has been generated (Figure \ref{fig:utility-tree} ).
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=10cm]{Media/Utility-tree.jpg}
-    \caption{Utility Tree}
-    \label{fig:utility-tree}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=10cm]{Media/Utility-tree.jpg}
+%     \caption{Utility Tree}
+%     \label{fig:utility-tree}
+% \end{figure}
 
 \subsubsection{Step 6: Analyze Architectural Approaches:}
 
@@ -1141,8 +1137,6 @@ Data engineering is a complicated endevaour, and while there are many good pract
 
 \section*{Appendix}
 % Text for this section\ldots
-\hspace{1cm}
-
 
 \section{Studies Included in the Systematic Literature Review} \label{appendixA:SLR}
 \begin{longtable}{|p{5cm} | p{1cm}  | p{1cm} | p{3.4cm}|}
@@ -1336,6 +1330,86 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \bibliographystyle{vancouver} % Style BST file (bmc-mathphys, vancouver, spbasic).
 \bibliography{mybibfile}      % Bibliography file (usually '*.
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Figures                       %%
+%%                               %%
+%% NB: this is for captions and  %%
+%% Titles. All graphics must be  %%
+%% submitted separately and NOT  %%
+%% included in the Tex document  %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Do not use \listoffigures as most will included as separate files
+
+
+%% FIGURE 1 - PRISMA FLOWCHART
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{PRISMA.JPG}
+    \caption{PRISMA flowchart}
+    \label{fig:PRISMA}
+\end{figure}
+
+%% FIGURE 2 - SLR STATISTICS
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{databases-statitistic.jpg}
+    \caption{SLR statistics}
+    \label{fig:SLRStats}
+\end{figure}
+
+%% FIGURE 3 - VARIABILITY MANAGEMENT MODEL
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{variability-model.JPG}
+    \caption{Variability management concepts model}
+    \label{variability}
+\end{figure}
+
+%% FIGURE 4 - PRODUCT FACETS
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{Media/product-facets.jpg}
+    \caption{Product Facets}
+    \label{fig:data-facets}
+\end{figure}
+
+%% FIGURE 5 - CYBERMYCELIUM
+\begin{sidewaysfigure}
+    % \begin{figure}[h!]
+        \includegraphics[width=23cm]{Media/Cybermycelium.jpg}
+        \caption{Cybermycelium BD Reference Architecture}
+        \label{fig:Cybermycelium}
+    % \end{figure}
+\end{sidewaysfigure}
+
+%% FIGURE 6 - CYBERMYCELIUM PRODUCT DOMAIN DESIGN
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=12cm]{Media/Product Domain.jpg}
+    \caption{Cybermycelium Product Domain Design}
+    \label{fig:Cybermycelium Product Domain Design}
+\end{figure}
+
+%% FIGURE 7 - CYBERMYCELIUM INSTANTIATION
+\begin{sidewaysfigure}
+    % \centering
+    \includegraphics[width=23cm]{Media/concrete-mycelium.jpg}
+    \caption{Cybermycelium Instantiation}
+    \label{fig:ConcreteCyberMycelium}
+\end{sidewaysfigure}
+
+%% FIGURE 8 - UTILITY TREE
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{Media/Utility-tree.jpg}
+    \caption{Utility Tree}
+    \label{fig:utility-tree}
+\end{figure}
 
 \end{backmatter}
 \end{document}
