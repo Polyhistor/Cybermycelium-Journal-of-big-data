@@ -133,11 +133,11 @@ Architecture for Big Data Systems}
   corref={aff1},                       % id of corresponding address, if any
 % noteref={n1},                        % id's of article notes, if any
   email={pouya.ataei@aut.ac.nz}   % email address
-]{\fnm{Pouya} \snm{Ataei}}
+]{\inits{Mr}\fnm{Pouya} \snm{Ataei}}
 \author[
-  addressref={aff2},
+  addressref={aff2}, 
   email={alan.litchfield@aut.ac.nz}
-]{\fnm{Alan} \snm{Litchfield}}
+]{\inits{Dr}\fnm{Alan} \snm{Litchfield}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -811,13 +811,13 @@ To this challenge, domain-driven design proposes a better approach to convey kno
 
 \subsubsection{Data as a service:}
 
-Data can be conceived as the fourth dimension of a product next to UI/UX, business and application as displayed in Figure \ref{data-facets}. Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the `invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
+Data can be conceived as the fourth dimension of a product next to UI/UX, business and application as displayed in Figure \ref{fig:data-facets}. Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the `invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=10cm]{Media/product-facets.jpg}
-    \label{data-facets}
     \caption{Product Facets}
+    \label{fig:data-facets}
 \end{figure}
 
 However this data-as-a-service model should be carefully implemented to account for explorability, discoverability, security, and quality. The data provided as a service should have the identical qualities to customer-facing products. This also implies, that a product owner should now treat data facet as an aspect of the product and employ objective measures that assure the desired quality. These measures can be net promoter scores from data consumers, data provenance, and decreased lead time. Product owners, in addition to the application and design aspect of the product, must now incorporate this new facet, and try to understand the needs of the data consumers, how they consume the data, and what are the common tools and technologies to consume the data. This knowledge can help shaping better interfaces for the product.
