@@ -116,6 +116,7 @@
 \title{Cybermycelium: Domain-Driven Distributed Reference
 Architecture for Big Data Systems}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter the authors here                   %%
@@ -131,16 +132,18 @@ Architecture for Big Data Systems}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author[
-  addressref={aff1},              
-  corref={aff1},                    
-  email={pouya.ataei@aut.ac.nz}   
-]{\inits{Mr}\fnm{Pouya} \snm{Ataei}}
-\author[
-  addressref={aff2}, 
-  email={alan.litchfield@aut.ac.nz}
-]{\inits{Dr}\fnm{Alan} \snm{Litchfield}}
+  addressref={aff3},                   % id's of addresses, e.g. {aff1,aff2}
+%   corref={aff3},                       % id of corresponding address, if any
+% noteref={n1},                        % id's of article notes, if any
+  email={pouya.ataei@aut.ac.nz}   % email address
+]{\inits{P}\fnm{Pouya} \snm{Ataei}} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author[
+  addressref={aff2},
+  email={alan.litchfield@aut.ac.nz}
+]{\inits{A}\fnm{Alan} \snm{Litchfield}}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
 %% Enter the authors' addresses here        %%
 %%                                          %%
@@ -149,16 +152,17 @@ Architecture for Big Data Systems}
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\address[id=aff1]{
-  \orgdiv{School of Engineering Computer and Mathematical Sciences},         
-  \orgname{Auckland University of Technology},        
-  \city{Auckland},                              
-  \cny{New Zealand}                              
+\address[id=aff3]{%                           % unique id
+  \orgdiv{School of Engineering Computer and Mathematical Sciences},             % department, if any
+  \orgname{Auckland University of Technology},          % university, etc
+  \city{Auckland},                              % city
+  \cny{New Zealand}                                    % country
 }
-
-\address[id=aff2]{
-  \orgdiv{Service and Cloud Computing Research Lab},
-  \orgname{Auckland University of Technology},
+\address[id=aff2]{%
+  \orgdiv{},
+  \orgname{Service and Cloud Computing Research Lab},
+  %\street{},
+  %\postcode{}
   \city{Auckland},
   \cny{New Zealand}
 }
@@ -193,7 +197,7 @@ Architecture for Big Data Systems}
 \begin{abstractbox}
 
 \begin{abstract} 
-    The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges.
+    The ubiquity of digital devices, the infrastructure of today, and the ever increasing proliferation of digital products have dawned a new era, the era of big data (BD). This era began when the volume, variety and velocity of data overwhelmed traditional systems that used to analyze and store that data. This precipitated a new class of software systems, namely BD systems. Whereas BD systems provide competitive advantage to businesses, many failed to harness to power of it. It has been estimated that only 20\% of companies have successfully implemented a BD project. This is due to various challenges of adopting BD such as organizational culture, rapid technology change, system development, data architecture and data engineering. This paper aims to facilitate BD system development, architecture and data engineering by introducing a domain-driven decentralized BD reference architecture (RA). This artefact is developed following the guidelines of empirically grounded RAs, and has been evaluated in a real world scenario. At the end, a prototype of the artefact has been instantiated and utilized to solve a real problem in practice. Our results displays a good degree of applicability and some thought-provoking architectural tradeoffs and challenges. test
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -252,7 +256,7 @@ Architecture for Big Data Systems}
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-test
+
 
 \section{Introduction}
 
@@ -1135,10 +1139,10 @@ Data engineering is a complicated endevaour, and while there are many good pract
 
 
 
-\section*{Appendix}
+\section{Appendix}
 % Text for this section\ldots
 
-\section{Studies Included in the Systematic Literature Review} \label{appendixA:SLR}
+\subsection{Studies Included in the Systematic Literature Review} \label{appendixA:SLR}
 \begin{longtable}{|p{5cm} | p{1cm}  | p{1cm} | p{3.4cm}|}
     \hline
     Study  & Author & Year & Type \\ [0.5ex]
@@ -1214,11 +1218,11 @@ Data engineering is a complicated endevaour, and while there are many good pract
 \end{longtable}
 
 
-\section{RA classification} \label{appendixA:RA-classification}
+\subsection{RA classification} \label{appendixA:RA-classification}
 
 This framework divides RAs into two major classes: standardization RAs and facilitation RAs. 
 
-\subsection{Standardization RAs}
+\subsubsection{Standardization RAs}
 
 \begin{enumerate}
   \item Type 1: classical, standardization architectures designed to be implemented in multiple organizations. Examples are:
@@ -1243,7 +1247,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
       \end{enumerate}
 \end{enumerate}
     
-\subsection{ Facilitation  RAs}
+\subsubsection{ Facilitation  RAs}
 
     \begin{enumerate}
         \item Type 3: classical, facilitation reference architectures for multiple organizations designed by a software organization in cooperation with user organizations
@@ -1287,29 +1291,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 
 
 
-% \section*{Funding}%% if any
-% Text for this section\ldots
-
-% \section*{Abbreviations}%% if any
-% Text for this section\ldots
-
-% \section*{Availability of data and materials}%% if any
-% Text for this section\ldots
-
-% \section*{Ethics approval and consent to participate}%% if any
-% Text for this section\ldots
-
-% \section*{Competing interests}
-% The authors declare that they have no competing interests.
-
-% \section*{Consent for publication}%% if any
-% Text for this section\ldots
-
-% \section*{Authors' contributions}
-% Text for this section \ldots
-
-% \section*{Authors' information}%% if any
-% Text for this section\ldots
+   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                  The Bibliography                       %%
@@ -1347,7 +1329,74 @@ This framework divides RAs into two major classes: standardization RAs and facil
 
 
 %% FIGURE 1 - PRISMA FLOWCHART
-\begin{figure}[h!]
+
+\section{Declarations}
+
+\section*{Acknowledgements}%% if any
+Not applicable\ldots
+
+\section*{Funding}%% if any
+Not applicable\ldots
+
+\section*{Abbreviations}%% if any
+Not applicable\ldots
+
+\section*{Availability of data and materials}%% if any
+Not applicable\ldots
+
+\section*{Ethics approval and consent to participate}%% if any
+Not applicable\ldots
+
+\section*{Competing interests}
+The authors declare that they have no competing interests.
+
+\section*{Consent for publication}%% if any
+Not applicable\ldots
+
+\section*{Authors' contributions}
+Pouya Ataei has designed, written and researched on this work. Pouya Ataei has also created the artifact, reached out to companies and tested it in practice. Alan Litchfield has provided direction and guidance on the overall flow of the research. Alan has also helped with review. \ldots
+
+\section*{Authors' information}%% if any
+\textbf{Pouya Ataei} received two bachelor’s degree in
+software engineering from Asia Pacific University,
+Kuala Lumpure, Malaysia and Staffordshire University,
+Stoke-On-Trent, The United Kingdom and
+a master’s degree in software engineering from
+Staffordshire University, is a current PhD student
+at Auckland University of Technology, Auckland,
+New Zealand, working on decentralized and distributed
+big data architectures. He has been an
+active researcher in the domain of big data within
+the past 5 years, having created the Nexus methodology for big data system
+development, and NeoMycelia, a decentralized software reference architecture
+for big data systems. His area of interest is in distributed system, in
+specific event-driven microservices, reactive systems, software architecture,
+and data engineering.
+
+\textbf{Alan Litchfield} is Director
+of the Service and cloud computing research
+lab (SCCRL), at the Auckland University
+of Technology. He is a partner in a consulting
+firm that provides specialized services to
+corporates, government departments and military.
+Dr.Alan is President of the association for information
+systems (AIS) special interest group on
+philosophy in information systems, founding programme
+leader for the master of service oriented
+computing (MSOC), and member of the Auckland University of Technology
+programmes and academic review committee (PARC). In addition, Dr Alan
+is member of the institute of IT professionals (MIITP), institute of electrical
+and electronics engineers (IEEE), association for computing machinery
+(ACM), and international institute for information design (IIID). His main
+area of interest is information systems.
+
+\ldots
+
+
+
+\section{Figures}
+
+\begin{figure}[!h]
     \centering
     \includegraphics[width=10cm]{PRISMA.JPG}
     \caption{PRISMA flowchart}
@@ -1355,7 +1404,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{figure}
 
 %% FIGURE 2 - SLR STATISTICS
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{databases-statitistic.jpg}
     \caption{SLR statistics}
@@ -1363,7 +1412,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{figure}
 
 %% FIGURE 3 - VARIABILITY MANAGEMENT MODEL
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{variability-model.JPG}
     \caption{Variability management concepts model}
@@ -1371,7 +1420,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{figure}
 
 %% FIGURE 4 - PRODUCT FACETS
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=10cm]{Media/product-facets.jpg}
     \caption{Product Facets}
@@ -1388,7 +1437,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{sidewaysfigure}
 
 %% FIGURE 6 - CYBERMYCELIUM PRODUCT DOMAIN DESIGN
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=12cm]{Media/Product Domain.jpg}
     \caption{Cybermycelium Product Domain Design}
@@ -1404,7 +1453,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{sidewaysfigure}
 
 %% FIGURE 8 - UTILITY TREE
-\begin{figure}[h!]
+\begin{figure}[!h]
     \centering
     \includegraphics[width=10cm]{Media/Utility-tree.jpg}
     \caption{Utility Tree}
@@ -1412,6 +1461,7 @@ This framework divides RAs into two major classes: standardization RAs and facil
 \end{figure}
 
 \end{backmatter}
+
 \end{document}
 
 
